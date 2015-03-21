@@ -50,4 +50,22 @@ ctx.strokeText ("brbrbrbrbrbrbrbrbrbrbrbrbrbbrbrbrbrbrbrbr",10,50);
   <img class="bottom" src="http://s3-ak.buzzfeed.com/static/enhanced/terminal01/2011/3/31/11/enhanced-buzz-5526-1301585265-6.jpg" />
   <img class="top" src="https://pbs.twimg.com/profile_images/574833151391973376/ayYo3Cle.jpeg" />
 </div>
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
 
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
